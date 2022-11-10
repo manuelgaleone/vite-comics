@@ -15,6 +15,7 @@ body {
 
 .row {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .d_flex {
@@ -27,6 +28,14 @@ body {
 
 .justify_end {
     justify-content: space-between;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.justify_around {
+    justify-content: space-around;
 }
 
 .col_2 {
@@ -45,7 +54,20 @@ body {
     width: calc(100% / 12 * 8);
 }
 
+.padding_25 {
+    padding: 60px;
+}
+
+.padding_20_right_left {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /*Header*/
+.header_main {
+    background-color: white;
+}
+
 .header_content {
     padding: 20px;
 }
@@ -66,6 +88,10 @@ body {
     position: relative;
 }
 
+.active {
+    color: #0282F9;
+}
+
 .menu_item:hover {
     color: #0282F9;
     transition: 0.5s;
@@ -76,6 +102,87 @@ body {
     width: 100%;
     height: 5px;
     position: absolute;
-    bottom: 0;
+    margin-top: 45px;
 
+}
+
+/*Main Content*/
+.main_content {
+    background-color: #1C1C1C;
+    padding: 25px;
+}
+
+.main_caption {
+    color: white;
+}
+
+/*Footer Content*/
+.up_footer {
+    background-color: #0282F9;
+    padding: 25px;
+}
+
+.icon_footer {
+    width: 50px;
+}
+
+.icons_text {
+    color: white;
+    padding-left: 10px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.main_footer {
+    background-image: url(./assets/img/footer-bg.jpg);
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu_footer_title {
+    font-weight: 700;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.menu_footer_item {
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.menu_footer_element {
+    list-style-type: none;
+}
+
+.footer_logo {
+    overflow: hidden;
+}
+
+.bottom_footer {
+    background-color: #1C1C1C;
+    padding: 30px;
+}
+
+.footer_button {
+    display: inline-block;
+    border: 3px solid #0282F9;
+    color: white;
+    padding: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.follow_footer {
+    color: #0282F9;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 15px;
+}
+
+.social_icon {
+    padding: 15px;
 }
