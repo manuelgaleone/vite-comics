@@ -1,8 +1,14 @@
 .main_footer {
     background-image: url(./assets/img/footer-bg.jpg);
-    padding: 30px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container_footer {
+    background-image: url(./assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
 
 .menu_footer_title {
@@ -50,4 +56,8 @@
 
 .social_icon {
     padding: 15px;
+}
+
+.padding_bottom_15 {
+    padding-bottom: 15px;
 }
