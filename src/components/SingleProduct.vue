@@ -11,8 +11,8 @@ export default {
 </script>
 
 <template>
-    <div class="row align_items">
-        <div v-for="product in products" class="col-3 card">
+    <div class="grid align_items">
+        <div v-for="product in products" class="col-2 card padding_card_10">
             <div class="card_elements">
                 <img :src="product.thumb" alt="Card info">
                 <p class="card_title">

@@ -45,8 +45,10 @@
 
 .card_title {
     color: white;
-    padding-top: 15px;
     text-transform: uppercase;
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 15px;
 }
 
 .grid {
@@ -55,9 +57,13 @@
 
 }
 
-.row {
+.grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
+}
+
+.padding_card_10 {
+    padding: 10px;
 }
