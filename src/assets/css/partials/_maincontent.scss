@@ -1,25 +1,49 @@
 .main_content {
     background-color: #1C1C1C;
-    padding: 25px;
+    padding: 75px;
+    position: relative;
 }
 
 .main_caption {
     color: white;
 }
 
-/*Footer Content*/
-.up_footer {
+.series_indicator {
     background-color: #0282F9;
-    padding: 25px;
+    padding: 10px;
+    width: 200px;
+    margin-top: -100px;
+    margin-bottom: 50px;
 }
 
-.icon_footer {
-    width: 50px;
-}
-
-.icons_text {
+.series_text {
+    font-weight: 700;
     color: white;
-    padding-left: 10px;
-    font-weight: 100;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.jumbo {
+    background-image: url(./assets/img/jumbotron.jpg);
+    padding: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.load_more {
+    padding-top: 50px;
+}
+
+.load_more_button {
+    background-color: #0282F9;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card_title {
+    color: white;
+    padding-top: 15px;
 }
