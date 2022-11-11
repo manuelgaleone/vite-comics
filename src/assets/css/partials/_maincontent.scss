@@ -46,4 +46,18 @@
 .card_title {
     color: white;
     padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
