@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <div class="grid align_items">
+    <div class="grid align_items justify_center">
         <div v-for="product in products" class="col-2 card padding_card_10">
             <div class="card_elements">
                 <img :src="product.thumb" alt="Card info">
